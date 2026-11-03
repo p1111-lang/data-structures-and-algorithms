@@ -53,7 +53,7 @@ class LinkedList:
             current_node = current_node.next
         return arr
 
-    def insert(index, data):
+    def insert(self,index, data):
         new_node = Node(data)
         if index == 0:
             new_node.next = self.head
